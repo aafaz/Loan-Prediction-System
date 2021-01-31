@@ -45,3 +45,43 @@ The exploratory data analysis is divided into two categories:
 # 1.	Univariate Analysis: 
 Examining each variable individually. 
 For categorical features, we use frequency table or bar plots which will calculate the number of each category in a particular variable.
+
+![](Images/document-classifier-photo.png)
+
+It can be inferred from the above bar plots that:
+•	80% applicant in the dataset are male.
+•	Around 65% of the applicants in the dataset are married.
+•	Around 15% of the applicants in the dataset are self-employed.
+•	Around 85% applicants have repaid their debts.
+
+![](Images/document-classifier-photo.png)
+
+Following inferences can be made from the above bar plots:
+•	Most of the applicant do not have any dependents.
+•	Around 80% of the applicants are graduates.
+•	Most of the applicant are from Semiurban area.
+
+For numerical variables, probability density plots can be used to look at the distribution of the variable.
+![](Images/document-classifier-photo.png)
+
+It can be inferred that most of the data in the distribution of applicant income is towards left which is not normally distributed, and the boxplot confirms the presence of a lot of extreme values/outliers. This can be attributed to the income disparity in the society. 
+
+
+# 2.	Bivariate Analysis: 
+Examining each variable with respect to target variable
+
+![](Images/document-classifier-photo.png)
+
+Following inferences can be made from the above bar plots:
+•	It seems people with credit history as 1 are more likely to get the loans approved.
+•	Proportion of loans getting approved in semi-urban area is higher than as compared to that in rural and urban areas.
+•	Proportion of married applicants is higher for the approved loans.
+•	Ratio of male and female applicants is more or less same for both approved and unapproved loans.
+
+# 3.	Correlation Plot:
+The following heatmap shows the correlation between all the numerical variables. The variable with darker color means their correlation is more.
+![](Images/document-classifier-photo.png)
+
+We see that the most correlated variables are (Applicant Income – Loan Amount) and (Credit_History – Loan Status). 
+LoanAmount is also correlated with CoapplicantIncome.
+
