@@ -107,3 +107,9 @@ As LoanAmount contains outliers, it is rightly skewed. One way to remove this sk
 
 Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
 
+# Future Improvements:
+•	In upcoming years, as the new data keeps coming in, it will be important for data science team to deal with missing values, imbalanced data sets and additional features. 
+
+•	It is important to notice this fact that the default loans are only about 10% of the total loans, thus during the training process, the model will favor predicting more negatives than positive results.
+
+•	The models can also be improved further by fine tunings on hyperparameters or using ensemble methods such as bagging, boosting, and stacking.
