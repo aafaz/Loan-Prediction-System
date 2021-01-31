@@ -85,3 +85,20 @@ The following heatmap shows the correlation between all the numerical variables.
 We see that the most correlated variables are (Applicant Income – Loan Amount) and (Credit_History – Loan Status). 
 LoanAmount is also correlated with CoapplicantIncome.
 
+
+# Data Preprocessing:
+The quality of the inputs in the model will decide the quality of your output. The following steps were taken to pre-process the data to feed into the prediction model.
+# 1.	Missing Value Imputation
+After understanding all the variable in the data, we can now impute the missing values and treat the outliers because missing data and outliers can have adverse effect on the model performance. 
+
+We consider the following values in all the features one by one.
+
+For categorical variables: impute using mode.
+
+For numerical variable: imputation using mean or median. Here, I have used median to impute the missing values as evident from Exploratory Data Analysis that loan amount has outliers, so the mean will not be the proper approach as it is highly affected by the presence of outliers.
+
+# 2.	Outlier Treatment:
+As LoanAmount contains outliers, it is rightly skewed. One way to remove this skewness is by doing the log transformation. As a result, we get a distribution like the normal distribution and does no affect the smaller values much but reduces the larger values.
+
+Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
+
