@@ -35,7 +35,7 @@ Train file will be used for training the model, i.e., our model will learn from 
 Test file contains all the independent variables, but not the target variable. We will apply the model to predict the target variable for the test data.
 Given below is the description for each variable with its data type.
 
-![](Images/Images/2.%20Data%20Dictionary.png)
+![](Images/2.%20Data%20Dictionary.png)
 We have 614 rows and 13 columns in the train dataset and 367 rows and 12 columns in the test dataset.
 
 
