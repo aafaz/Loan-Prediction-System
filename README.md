@@ -110,6 +110,10 @@ As LoanAmount contains outliers, it is rightly skewed. One way to remove this sk
 
 Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
 
+# Building the Baseline Model:
+For the baseline model, I have chosen a simple logistic regression model to predict the loan status. The training data is divided into training and validation set. In this way we can validate our predictions as we have the true predictions for the validation part.
+The baseline logistic regression model has given an accuracy of 84%. From the classification report, the F-1 score obtained is 82%.
+
 # Feature Engineering:
 Based on the domain knowledge, we can come up with new features that might affect the target variable. We can come up with following new three features:
 
@@ -123,6 +127,16 @@ EMI is the monthly amount to be paid by the applicant to repay the loan. Idea be
 This is the income left after the EMI has been paid. Idea behind creating this variable is that if the value is high, the chances are high that a person will repay the loan and hence increasing the chances of loan approval. 
 
 Let us now drop the columns which we used to create these new features. Reason for doing this is, the correlation between those old features and these new features will be very high and logistic regression assumes that the variables are not highly correlated. We also want to remove the noise from the dataset, so removing correlated features will help in reducing the noise too.
+
+# Model Building:
+StratifiedShuffleSplit is used as a cross validation technique in this problem. 
+
+The advantage of using this cross-validation technique is that it is a merge of StratifiedKFold and ShuffleSplit, which returns stratified randomized folds. The folds are made by preserving the percentage of samples for each class.
+
+After creating new features, we can continue the model building process. So, we will start with logistic regression model and then move over to more complex models like Decision Tree, Random Forest and XGBoost.
+
+# Model Comparision:
+![](Images/9.%20Model%20Comparision.png)
 
 
 
