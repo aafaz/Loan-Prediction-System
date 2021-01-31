@@ -1,4 +1,4 @@
-# Loan-Prediction-System
+# Loan Prediction System for Banks
 ![](Images/document-classifier-photo.png)
 
 
@@ -7,6 +7,7 @@ Loans are the core business of banks. The main profit comes directly from the lo
 The two most critical questions in the lending industry are: 
 1) How risky is the borrower? 
 2) Given the borrower’s risk, should we lend him/her?
+
 In the modern era, the data science teams in the banks build predictive models using machine learning to predict how likely a client is going to default the loan when they only have a handful of information.
 Loan Prediction is a very common real-life problem that each retail bank faces at least once in its lifetime. If done correctly, it can save a lot of man hours at the end of a retail bank.
 
@@ -17,10 +18,15 @@ To automate this process, they have given a problem to identify the customers’
 
 # Hypothesis Generation:
 Below are the factors which I think can affect the Loan Approval (dependent variable for this loan prediction problem):
+
 •	Salary: Applicant with high income should have more chances of loan approval.
+
 •	Previous History: Applicant who have repaid their previous debts should have higher chances of loan approval.
+
 •	Loan Amount: Loan Approval should also depend on the loan amount. If the loan amount is less, chances of loan approval should be high.
+
 •	Loan Term: Loan for less time and less amount should have higher chances of approval.
+
 •	EMI: Lesser the amount to be paid monthly to repay the loan, higher the chances of loan approval.
 
 # Data Source:
