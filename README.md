@@ -148,7 +148,7 @@ The following actions were taken to achieve this result:
 
 •	Perform different tests of statistical significance to uncover hidden data relationships that our predictive model could learn from and leverage when predicting unseen instances.
 
-•	Employed statistical analysis using various python libraries to identify the number and names of features that could more likely help in identifying the potential customers.
+•	Employed statistical analysis using various python libraries to identify the number and names of features that could more likely help in identifying the potential customers by predicting whether a loan would be approved or not.
 
 
 # Future Improvements:
