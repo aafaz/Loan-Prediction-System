@@ -36,6 +36,7 @@ Test file contains all the independent variables, but not the target variable. W
 Given below is the description for each variable with its data type.
 
 ![](Images/2.%20Data%20Dictionary.png)
+
 We have 614 rows and 13 columns in the train dataset and 367 rows and 12 columns in the test dataset.
 
 
@@ -62,6 +63,7 @@ Following inferences can be made from the above bar plots:
 •	Most of the applicant are from Semiurban area.
 
 For numerical variables, probability density plots can be used to look at the distribution of the variable.
+
 ![](Images/5.%20Univariate%20Analysis_3.png)
 
 It can be inferred that most of the data in the distribution of applicant income is towards left which is not normally distributed, and the boxplot confirms the presence of a lot of extreme values/outliers. This can be attributed to the income disparity in the society. 
@@ -80,6 +82,7 @@ Following inferences can be made from the above bar plots:
 
 # 3.	Correlation Plot:
 The following heatmap shows the correlation between all the numerical variables. The variable with darker color means their correlation is more.
+
 ![](Images/7.%20Correlation%20Plot.png)
 
 We see that the most correlated variables are (Applicant Income – Loan Amount) and (Credit_History – Loan Status). 
@@ -101,5 +104,6 @@ For numerical variable: imputation using mean or median. Here, I have used media
 As LoanAmount contains outliers, it is rightly skewed. One way to remove this skewness is by doing the log transformation. As a result, we get a distribution like the normal distribution and does no affect the smaller values much but reduces the larger values.
 
 ![](Images/8.%20Outlier%20Treatment.png)
+
 Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
 
