@@ -140,6 +140,16 @@ The model building code can be found here: <a> https://github.com/aafaz/Loan-Pre
 ![](Images/9.%20Model%20Comparision.png)
 
 
+After trying and testing 4 different algorithms, the best predictions are given by Logistic Regression Model, with an F-1 Score of 82%.
+
+The following actions were taken to achieve this result:
+
+•	Explored the dataset to understand the data.
+
+•	Perform different tests of statistical significance to uncover hidden data relationships that our predictive model could learn from and leverage when predicting unseen instances.
+
+•	Employed statistical analysis using various python libraries to identify the number and names of features that could more likely help in identifying the potential customers.
+
 
 # Future Improvements:
 •	In upcoming years, as the new data keeps coming in, it will be important for data science team to deal with missing values, imbalanced data sets and additional features. 
