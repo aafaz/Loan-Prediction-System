@@ -107,6 +107,20 @@ As LoanAmount contains outliers, it is rightly skewed. One way to remove this sk
 
 Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
 
+# Feature Engineering:
+Based on the domain knowledge, we can come up with new features that might affect the target variable. We can come up with following new three features:
+# 1.	Total Income: 
+As evident from Exploratory Data Analysis, we will combine the Applicant Income and Coapplicant Income. If the total income is high, chances of loan approval might also be high.
+
+# 2.	EMI:
+EMI is the monthly amount to be paid by the applicant to repay the loan. Idea behind making this variable is that people who have high EMI’s might find it difficult to pay back the loan. We can calculate EMI by taking the ratio of loan amount with respect to loan amount term.
+
+# 3.	Balance Income: 
+This is the income left after the EMI has been paid. Idea behind creating this variable is that if the value is high, the chances are high that a person will repay the loan and hence increasing the chances of loan approval. 
+Let us now drop the columns which we used to create these new features. Reason for doing this is, the correlation between those old features and these new features will be very high and logistic regression assumes that the variables are not highly correlated. We also want to remove the noise from the dataset, so removing correlated features will help in reducing the noise too.
+
+
+
 # Future Improvements:
 •	In upcoming years, as the new data keeps coming in, it will be important for data science team to deal with missing values, imbalanced data sets and additional features. 
 
