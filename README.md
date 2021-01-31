@@ -118,6 +118,7 @@ EMI is the monthly amount to be paid by the applicant to repay the loan. Idea be
 
 3.	Balance Income: 
 This is the income left after the EMI has been paid. Idea behind creating this variable is that if the value is high, the chances are high that a person will repay the loan and hence increasing the chances of loan approval. 
+
 Let us now drop the columns which we used to create these new features. Reason for doing this is, the correlation between those old features and these new features will be very high and logistic regression assumes that the variables are not highly correlated. We also want to remove the noise from the dataset, so removing correlated features will help in reducing the noise too.
 
 
