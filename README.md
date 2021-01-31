@@ -1,5 +1,5 @@
 # Loan Prediction System for Banks
-![](Images/document-classifier-photo.png)
+![](Images/1.%20Loan%20Prediction%20System.png.png)
 
 
 # Problem Statement:
@@ -35,7 +35,7 @@ Train file will be used for training the model, i.e., our model will learn from 
 Test file contains all the independent variables, but not the target variable. We will apply the model to predict the target variable for the test data.
 Given below is the description for each variable with its data type.
 
-![](Images/document-classifier-photo.png)
+![](Images/Images/2.%20Data%20Dictionary.png)
 We have 614 rows and 13 columns in the train dataset and 367 rows and 12 columns in the test dataset.
 
 
@@ -46,7 +46,7 @@ The exploratory data analysis is divided into two categories:
 Examining each variable individually. 
 For categorical features, we use frequency table or bar plots which will calculate the number of each category in a particular variable.
 
-![](Images/document-classifier-photo.png)
+![](Images/3.%20Univariate%20Analysis_1.png)
 
 It can be inferred from the above bar plots that:
 •	80% applicant in the dataset are male.
@@ -54,7 +54,7 @@ It can be inferred from the above bar plots that:
 •	Around 15% of the applicants in the dataset are self-employed.
 •	Around 85% applicants have repaid their debts.
 
-![](Images/document-classifier-photo.png)
+![](Images/4.%20Univariate%20Analysis_2.png)
 
 Following inferences can be made from the above bar plots:
 •	Most of the applicant do not have any dependents.
@@ -62,7 +62,7 @@ Following inferences can be made from the above bar plots:
 •	Most of the applicant are from Semiurban area.
 
 For numerical variables, probability density plots can be used to look at the distribution of the variable.
-![](Images/document-classifier-photo.png)
+![](Images/5.%20Univariate%20Analysis_3.png)
 
 It can be inferred that most of the data in the distribution of applicant income is towards left which is not normally distributed, and the boxplot confirms the presence of a lot of extreme values/outliers. This can be attributed to the income disparity in the society. 
 
@@ -70,7 +70,7 @@ It can be inferred that most of the data in the distribution of applicant income
 # 2.	Bivariate Analysis: 
 Examining each variable with respect to target variable
 
-![](Images/document-classifier-photo.png)
+![](Images/6.%20Bivariate%20Analysis.jpg)
 
 Following inferences can be made from the above bar plots:
 •	It seems people with credit history as 1 are more likely to get the loans approved.
@@ -80,7 +80,7 @@ Following inferences can be made from the above bar plots:
 
 # 3.	Correlation Plot:
 The following heatmap shows the correlation between all the numerical variables. The variable with darker color means their correlation is more.
-![](Images/document-classifier-photo.png)
+![](Images/7.%20Correlation%20Plot.png)
 
 We see that the most correlated variables are (Applicant Income – Loan Amount) and (Credit_History – Loan Status). 
 LoanAmount is also correlated with CoapplicantIncome.
@@ -100,5 +100,6 @@ For numerical variable: imputation using mean or median. Here, I have used media
 # 2.	Outlier Treatment:
 As LoanAmount contains outliers, it is rightly skewed. One way to remove this skewness is by doing the log transformation. As a result, we get a distribution like the normal distribution and does no affect the smaller values much but reduces the larger values.
 
+![](Images/8.%20Outlier%20Treatment.png)
 Now the distribution for LoanAmount looks much closer to normal and effect of extreme values has been significantly subsided. 
 
