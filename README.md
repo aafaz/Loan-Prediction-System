@@ -1,4 +1,4 @@
-# Loan-Prediction
+# Loan-Prediction-System
 ![](Images/document-classifier-photo.png)
 
 
