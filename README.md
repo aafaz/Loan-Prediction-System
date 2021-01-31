@@ -1,5 +1,5 @@
 # Loan Prediction System for Banks
-![](Images/1.%20Loan%20Prediction%20System.png.png)
+![](Images/1.%20Loan%20Prediction%20System.png)
 
 
 # Problem Statement:
