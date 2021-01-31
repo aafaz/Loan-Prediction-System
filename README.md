@@ -37,3 +37,11 @@ Given below is the description for each variable with its data type.
 
 ![](Images/document-classifier-photo.png)
 We have 614 rows and 13 columns in the train dataset and 367 rows and 12 columns in the test dataset.
+
+
+# Exploratory Data Analysis:
+The exploratory data analysis is divided into two categories:
+
+# 1.	Univariate Analysis: 
+Examining each variable individually. 
+For categorical features, we use frequency table or bar plots which will calculate the number of each category in a particular variable.
