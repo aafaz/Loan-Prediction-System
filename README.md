@@ -2,7 +2,7 @@
 ![](Images/1.%20Loan%20Prediction%20System.png)
 
 
-# Problem Statement:
+# Problem Statement: 
 Loans are the core business of banks. The main profit comes directly from the loan’s interest. The loan companies grant a loan after an intensive process of verification and validation. However, they still do not have assurance if the applicant is able to repay the loan with no difficulties.
 The two most critical questions in the lending industry are: 
 1) How risky is the borrower? 
